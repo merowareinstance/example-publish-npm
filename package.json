@@ -1,6 +1,6 @@
 {
   "name": "example-publish-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A repo showing how to publish a node repo into npm using github actions",
   "main": "index.js",
   "scripts": {
