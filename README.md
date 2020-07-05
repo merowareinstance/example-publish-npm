@@ -1,7 +1,5 @@
 # example-publish-npm
-A repo showing how to publish a node repo into npm using github actions
-
-##
+Shows how to publish a node repo into npm using github actions. Not meant for library installation usage.
 
 ## Authors
 
