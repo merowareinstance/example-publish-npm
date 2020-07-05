@@ -1,0 +1,49 @@
+{
+  "name": "example-publish-npm",
+  "version": "1.0.0",
+  "description": "A repo showing how to publish a node repo into npm using github actions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=true NODE_ENV=development nodemon index.js",
+    "start": "DEBUG=true NODE_ENV=stage nodemon index.js",
+    "lint": "eslint --ext .js ./",
+    "lint:fix": "eslint --fix --ext .js ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meroware/example-publish-npm.git"
+  },
+  "keywords": [
+    "example",
+    "publish",
+    "npm",
+    "publish",
+    "github",
+    "actions",
+    "actions"
+  ],
+  "author": "Edward Romero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meroware/example-publish-npm/issues"
+  },
+  "homepage": "https://github.com/meroware/example-publish-npm#readme",
+  "devDependencies": {
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-node": "4.1.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.20.0",
+    "eslint-plugin-react-hooks": "4.0.0",
+    "nodemon": "2.0.4",
+    "prettier": "2.0.5"
+  },
+  "dependencies": {
+    "pino": "^6.3.2",
+    "pino-pretty": "^4.0.0"
+  }
+}
